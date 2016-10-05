@@ -47,4 +47,4 @@ before_script:
   - android-wait-for-emulator
 
 script:
-   - ./gradlew testAcasttestsBetaUnitTest -PdisablePreDex
+   - ./gradlew connectedAndroidTest -PdisablePreDex
