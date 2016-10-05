@@ -1,4 +1,5 @@
-nguage: android
+language: android
+dist: trusty
 jdk: oraclejdk7
 # Use the Travis Container-Based Infrastructure
 sudo: false
